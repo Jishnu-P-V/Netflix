@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)60%, rgba(0, 0, 0, 0.8)80%), url(/images/1.png);
+    background-size: cover;
+    background-position: center;
+    /* padding: 10px 8%; */
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 100px;
+    position: relative;
+    border-bottom: 8px solid rgb(67, 67, 67);
+}
+
+nav {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* padding: 10px,0; */
+}
+
+.logo {
+    width: 150px;
+    /* cursor: pointer; */
+}
+
+nav button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    /* cursor: pointer; */
+
+}
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+
+.language-btn img {
+    width: 10px;
+    margin-left: 10px;
+
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    line-height: 40px;
+    /* font-weight: 00px; */
+    /* max-width: 100%; */
+}
+
+.header-content p {
+    font-size: 20px;
+    line-height: 60px;
+}
+
+.header-content h3 {
+    /* font-weight: 400; */
+    /* margin-bottom: 20px; */
+}
+
+.email-signup {
+    border-radius: 4px;
+
+    margin-top: 30px;
+    padding-top: 30px;
+
+
+}
+
+.email-signup input {
+
+    /* margin-left: 30px; */
+    font-size: 20px;
+    padding: 30px;
+    background: transparent;
+    height: 50px;
+    width: 400px;
+    border: solid gray;
+    border-radius: 4px;
+    border-width: 1px;
+
+}
+
+.email-signup button {
+    background: #db0001;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    /* font-weight: 200px; */
+    font-size: 25px;
+
+}
+
+.page2 {
+    width: 100%;
+    height: 600px;
+    padding: 50px 5%;
+    position: relative;
+    border-bottom: 8px solid rgb(67, 67, 67);
+}
+
+.left2{
+    /* font-size: 45px; */
+    position: absolute;
+    bottom: 250px;
+    left: 180px;
+}
+.left2 h2{
+    font-size: 50px;
+    font-weight: 700px;
+}
+.left2 p{
+    font-size: 20px;
+}
+
+.img2{
+    width: 600px;
+    /* height: 800px; */
+    position: absolute;
+    /* top: px; */
+    right: 200px;
+}
+.video2{
+    width: 480px;
+    /* height: 253px; */
+    position: absolute;
+    top: 150px;
+    right: 246px;
+
+}
+
+.page3{
+    width: 100%;
+    height: 600px;
+    /* background: transparent; */
+    border-bottom: 8px solid rgb(67, 67, 67);
+    /* margin-bottom: 0; */
+    /* padding: 50px 5%; */
+    position: relative;
+}
+
+.left3{
+    /* width: 100px; */
+    height: 300px;
+    /* position: absolute; */
+    bottom: 120px;
+    left: 250px;
+
+}
+
+.right3{
+    /* width: 200px; */
+    /* height: 300px; */
+    position: relative;
+    bottom: 100px;
+    left: 800px;
+    
+}
+
+.right3 h1{
+    font-size: 50px;
+
+}
+
+.right3 p{
+    font-size: 20px;
+
+}
+
+/* .............page 4 css........... */
+
+
+.page4 {
+    width: 100%;
+    height: 600px;
+    padding: 50px 5%;
+    position: relative;
+    border-bottom: 8px solid rgb(67, 67, 67);
+}
+
+.left4{
+    /* font-size: 45px; */
+    position: absolute;
+    bottom: 250px;
+    left: 180px;
+}
+.left4 h1{
+    font-size: 50px;
+    font-weight: 700px;
+}
+.left4 p{
+    font-size: 20px;
+}
+
+.img4{
+    width: 600px;
+    /* height: 800px; */
+    position: absolute;
+    /* top: px; */
+    right: 200px;
+}
+.video4{
+    width: 480px;
+    /* height: 253px; */
+    position: absolute;
+    top: 80px;
+    right: 246px;
+
+}
+
+/* .......page5............. */
+
+.page5{
+    width: 100%;
+    height: 600px;
+    /* background: transparent; */
+    border-bottom: 8px solid rgb(67, 67, 67);
+    /* margin-bottom: 0; */
+    /* padding: 50px 5%; */
+    position: relative;
+}
+
+.left5{
+    /* width: 100px; */
+    height: 300px;
+    /* position: absolute; */
+    bottom: 120px;
+    left: 250px;
+
+}
+
+.right5{
+    /* width: 200px; */
+    /* height: 300px; */
+    position: relative;
+    bottom: 100px;
+    left: 800px;
+    
+}
+
+.right5 h1{
+    font-size: 50px;
+
+}
+
+.right5p{
+    font-size: 20px;
+
+}
+
+
+/* ..........page 6..........  */
+
+.page6{
+
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 0; */
+    padding: 50px 5%;
+    position: relative;
+    border-bottom: 8px solid rgb(67, 67, 67);
+}
+
+.head6{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    /* left: 30%; */
+    /* top: 60px; */
+    padding: 50px;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 150px;
+
+    /* position:absolute;
+    top: 160px;
+    left: 30%; */
+}
+
+.button1 button,
+.button2 button,
+.button3 button,
+.button4 button,
+.button5 button,
+.button6 button {
+  font-size: 20px;
+  width: 80%;
+  height: 80px;
+  background-color: #222;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  color: #fff;
+
+
+}
+
+.page6email{
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    padding: 50px;
+    
+    
+}
+.page6email h3 {
+    text-align: center; 
+  }
+
+  .email-signup2 {
+    /* border-radius: 4px; */
+
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 350px;
+    
+
+
+}
+
+.email-signup2 input {
+
+    /* margin-left: 30px; */
+    font-size: 20px;
+    padding: 30px;
+    background: transparent;
+    height: 50px;
+    width: 400px;
+    border: solid gray;
+    border-radius: 4px;
+    border-width: 1px;
+
+}
+
+.email-signup2 button {
+    background: #db0001;
+    border: 0;
+    color: #fff;
+    padding: 13px;
+    border-radius: 4px;
+    /* font-weight: 200px; */
+    font-size: 25px;
+
+}
+
+
+
+/* .....footer........  */
+
+
+footer{
+    width: 100%;
+    height: 500px;
+    border-top: 8px solid rgb(67, 67, 67);
+    /* background: transparent; */
+    /* border-top: 8px solid rgb(67, 67, 67); */
+  
+
+    /* padding: 50px 5%; */
+    position: relative;
+
+}
+
+footer{
+
+ width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 80px;
+    
+}
+
+.footer-header{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 50px;
+}
+
+.footer-header h4{
+    color: rgb(146, 142, 142);
+    /* position: relative; */
+    left: 311px;
+    top: 60px;
+    text-align: left;
+    
+
+
+}
+
+.footer-table a{
+    /* text-decoration: none; */
+    color:rgb(146, 142, 142) ;
+    font-size: 14px;
+
+}
+.footer-table table{
+    width: 900px;
+    height: 200px;
+}
+.language2{
+    background: none;
+    color: rgb(146, 142, 142);
+    height: 53px;
+    width: 113px;
+    padding: 16px;    
+
+
+
+}
+.select2{
+    
+
+    left: 312px;
+    top: 420px;
+    padding-top: 20px;
+   
+
+}
+.footer-text{
+    color: rgb(146, 142, 142);
+    font-size: 14px;
+    left: 314px;
+    top: 502px;
+    padding-top: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
